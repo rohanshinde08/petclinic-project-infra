@@ -17,10 +17,10 @@ $ export AWS_SECRET_ACCESS_KEY="awssecretaccesskey"
 ```
 $ terraform init
 $ terraform plan -var-file=dev.tfvars
-$ terraform apply -var-file=dev.tfvars --auto-approve
+$ terraform apply -var-file=dev.tfvars
 ```
 4. Run following commands to destroy infrastructure
 
 ```
-$ terraform destroy -var-file=dev.tfvars --auto-approve
+$ terraform destroy -var-file=dev.tfvars
 ```
